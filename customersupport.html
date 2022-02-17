@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>DeezNuts</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="logotopnav">
+      <div class="logo">eCommerce</div>
+      <div class="logo">Mart</div>
+  </div>
+
+  <div class="topnav" id="myTopnav">
+    <a href="customersupport.html "class="active">Customer Support</a>
+    <a href="index.html">Home</a>
+    <a href="faq.html">FAQ</a>
+    <a href="news.html">Upcoming News</a>
+    <a href="productpage.html">Products</a>
+  <div><a href="javascript:void(0);" class="icon" onclick="testing()">
+    <i class="fa fa-bars"></i></a>
+  </div>
+  
+  
+  <div class="container">
+    <h3>Hello! Please tell us what is wrong and we will do our best to help you!</h3>
+    <form>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname" >First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="email">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="email" id="email" name="email" placeholder="Your email.." required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+      
+    <script src="script.js"></script>
+  </body>
+</html>
